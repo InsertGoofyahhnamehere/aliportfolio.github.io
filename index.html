@@ -1,0 +1,281 @@
+<!-- TailwindCSS.com -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="Tugas Akhir/kamen_rider_genm_symbol_by_raidenzein_dautf7n-pre.png"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Ali's Portfolio</title>
+  </head>
+
+  <!-- Navigation Thingy -->
+  <header class="sticky top-0 z-50 bg-black/100">
+    <div class="max-w-6xl mx-auto px-4">
+      <div class="flex items-center justify-between py-3">
+        <!-- Logo -->
+        <a href="#" class="font-bold text-2xl tracking-wide text-slate-100">
+          Genm<span class="text-rose-600">LLC</span>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav id="navMenu" class="hidden md:flex items-center gap-7">
+          <a href="#home" class="hover:text-pink-400 transition text-white"
+            >Home</a
+          >
+          <a href="#portfolio" class="hover:text-pink-400 transition text-white"
+            >Experience</a
+          >
+          <a href="#contact" class="hover:text-pink-400 transition text-white"
+            >Contact</a
+          >
+        </nav>
+
+        <!-- Mobile Menu Button -->
+        <button
+          id="menuBtn"
+          class="md:hidden text-slate-100 focus:outline-none"
+        >
+          <!-- Hamburger Icon -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            class="w-6 h-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            stroke-width="2"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Dropdown Nav -->
+      <nav
+        id="mobileNav"
+        class="hidden flex-col items-center gap-4 pb-4 md:hidden"
+      >
+        <a href="#home" class="hover:text-pink-400 text-white px-3 py-2"
+          >Home</a
+        >
+        <a href="#portfolio" class="hover:text-pink-400 text-white px-3 py-2"
+          >Experience</a
+        >
+        <a href="#contact" class="hover:text-pink-400 text-white px-3 py-2"
+          >Contact</a
+        >
+      </nav>
+    </div>
+  </header>
+
+  <main id="home">
+    <!-- Section 1: Introduction -->
+    <section class="bg-violet-300 p-20">
+      <div class="flex items-center justify-between gap-8">
+        <!-- Text -->
+        <div>
+          <h1 class="text-4xl font-bold font-mono text-rose-600">
+            Hallo, Saya Mochamad Ali!
+          </h1>
+          <p class="text-gray-900 mt-2 fs-6 text-justify text-2xl">
+            Saya adalah Mahasiswa Semester 1 Universitas Dian Nuswantoro
+            (UDINUS), Semarang!
+          </p>
+        </div>
+
+        <!-- Image -->
+        <img
+          src="Tugas Akhir/dankuroto.jpg"
+          alt="My hero"
+          class="rounded-xl shadow-lg"
+          width="26%"
+        />
+      </div>
+    </section>
+
+    <!-- Section 2: Portofolio -->
+    <section id="portfolio" class="py-5 bg-white">
+      <div class="p-20">
+        <h2 class="text-3xl font-bold text-slate-900 mb-8">My Projects</h2>
+        <div class="flex flex-wrap justify-center gap-6">
+          <!-- Card 1 -->
+          <div
+            class="group rounded-xl border border-slate-200 bg-white overflow-hidden hover:shadow-lg transition w-80"
+          >
+            <img
+              src="Tugas Akhir/Screenshot (956).png"
+              alt="Ex-Aid"
+              class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+            <div class="p-4">
+              <h3
+                class="font-semibold text-slate-900 group-hover:text-indigo-600"
+              >
+                Mighty Action X
+              </h3>
+              <p class="mt-1 text-sm text-slate-600">
+                Kamen Rider Ex-Aid & Genm
+              </p>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div
+            class="group rounded-xl border border-slate-200 bg-white overflow-hidden hover:shadow-lg transition w-80"
+          >
+            <img
+              src="Tugas Akhir/Brave_Debut.jpg"
+              alt="Brave"
+              class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+            <div class="p-4">
+              <h3
+                class="font-semibold text-slate-900 group-hover:text-indigo-600"
+              >
+                Taddle Quest
+              </h3>
+              <p class="mt-1 text-sm text-slate-600">Kamen Rider Brave</p>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div
+            class="group rounded-xl border border-slate-200 bg-white overflow-hidden hover:shadow-lg transition w-80"
+          >
+            <img
+              src="Tugas Akhir/Snipe_Debut.png"
+              alt="Snipe"
+              class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+            <div class="p-4">
+              <h3
+                class="font-semibold text-slate-900 group-hover:text-indigo-600"
+              >
+                Bang Bang Shooting
+              </h3>
+              <p class="mt-1 text-sm text-slate-600">Kamen Rider Snipe</p>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div
+            class="group rounded-xl border border-slate-200 bg-white overflow-hidden hover:shadow-lg transition w-80"
+          >
+            <img
+              src="Tugas Akhir/Lazer_tab.png"
+              alt="Lazer"
+              class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+            <div class="p-4">
+              <h3
+                class="font-semibold text-slate-900 group-hover:text-indigo-600"
+              >
+                Bakusou Bike
+              </h3>
+              <p class="mt-1 text-sm text-slate-600">Kamen Rider Lazer</p>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div
+            class="group rounded-xl border border-slate-200 bg-white overflow-hidden hover:shadow-lg transition w-80"
+          >
+            <img
+              src="Tugas Akhir/Para-DX_Profile.png"
+              alt="Parad-Dx"
+              class="w-full aspect-video object-cover group-hover:scale-105 transition-transform duration-300"
+            />
+            <div class="p-4">
+              <h3
+                class="font-semibold text-slate-900 group-hover:text-indigo-600"
+              >
+                Perfect Puzzle & Knock-Out Fighter
+              </h3>
+              <p class="mt-1 text-sm text-slate-600">Kamen Rider Para-Dx</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 3: Contacts -->
+    <section id="contact" class="bg-fuchsia-100">
+      <div class="max-w-3xl mx-auto px-4 py-14 md:py-20">
+        <h2 class="text-2xl md:text-3xl font-bold text-stone-950">Kontak</h2>
+        <p class="mt-1 text-slate-600">
+          Silahkan isi formulir dibawah ini untuk menghubungi saya!
+        </p>
+
+        <form
+          class="mt-6 grid gap-4"
+          onsubmit="event.preventDefault(); alert('Message Sent!');"
+        >
+          <div class="grid md:grid-cols-2 gap-4">
+            <div>
+              <label class="block text-sm font-medium text-stone-700"
+                >Nama</label
+              >
+              <input
+                type="text"
+                required=""
+                class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                placeholder="Nama lengkap"
+              />
+            </div>
+            <div>
+              <label class="block text-sm font-medium text-stone-700"
+                >Email</label
+              >
+              <input
+                type="email"
+                required=""
+                class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                placeholder="email@genmcorp.com"
+              />
+            </div>
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-stone-700"
+              >Pesan</label
+            >
+            <textarea
+              rows="5"
+              required=""
+              class="mt-1 w-full rounded-xl border border-slate-300 px-4 py-2.5 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+              placeholder="Pesan..."
+            ></textarea>
+          </div>
+          <button
+            type="submit"
+            class="px-5 py-2 rounded-xl bg-violet-700 text-white font-medium hover:bg-violet-500"
+          >
+            Kirim Pesan
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Extra: Footer/Copyright -->
+    <footer class="bg-dark text-black text-center py-3 mt-5">
+      <p class="mb-0">© 2025 Mochamad Ali</p>
+    </footer>
+  </main>
+
+  <!-- SCRIPT -->
+  <script>
+    const menuBtn = document.getElementById("menuBtn");
+    const mobileNav = document.getElementById("mobileNav");
+
+    menuBtn.addEventListener("click", () => {
+      mobileNav.classList.toggle("hidden");
+    });
+  </script>
+</html>
